@@ -9,7 +9,7 @@ const { PORT, DATABASE_URL } = process.env;
 app.use(cors());
 app.use("/api/v1/", dataRoutes);
 
-app.get("/", (req, res) => res.send("Netclan api ready to use..."));
+app.get("/", (req, res) => res.send("Visualization api ready to use..."));
 
 app.listen(PORT, () =>
   mongoose.connect(DATABASE_URL, () =>
