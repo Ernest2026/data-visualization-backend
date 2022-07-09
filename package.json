@@ -1,0 +1,22 @@
+{
+  "name": "netclan_api",
+  "version": "1.0.0",
+  "description": "An api that gets data for visualization from the database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon start"
+  },
+  "keywords": [
+    "data visualization"
+  ],
+  "author": "Chidiebere Ernest",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4"
+  }
+}
